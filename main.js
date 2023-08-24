@@ -16,11 +16,10 @@ function add() {
 }
 
 function uploadimg() {
-
 	ctx.drawImage(img_imgTag, img_x, img_y, img_width, img_height);
 }
 
-//Write a code to grab the key-pressed event
+document.addEventListener("keydown", my_keydown);
 
 function my_keydown(e)
 {
